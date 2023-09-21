@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #e84855;
+    --cor2: #38618c;
+    --cor3: #5a3a31;
+    --cor4: #dff3e4;
+    --cor5: #f1e8b8;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    color: var(--cor1);
+}
+
+nav > div {
+    display: inline-block;
+}
+
+#d1 {
+    margin-right: 65%;
+}
+
+.d2 {
+    margin-left: 5%;
+}
+
+section > div {
+    width: 400px;
+    height: 276px;
+    margin-bottom: 40px;
+    padding-left: 25px;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+}
