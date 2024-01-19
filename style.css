@@ -5,8 +5,7 @@
     --cor2: #E6EBE0;
     --cor3: #DB504A;
     --cor4: #31231E;
-    --cor5: #3C1518;
-    
+    --cor5: #3C1518; 
 }
 
 body {
@@ -82,4 +81,24 @@ section {
 footer {
     text-align: center;
     color: var(--cor5);
+}
+
+/*Abaixo são formatações das outras páginas*/
+
+.imgori {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid var(--cor5);
+}
+
+article {
+    text-align: justify;
+    width: 800px;
+    margin: auto;
+    padding-top: 24px;
+}
+
+footer {
+    padding-top: 28px;
 }
